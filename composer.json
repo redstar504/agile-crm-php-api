@@ -3,6 +3,6 @@
         "phpunit/phpunit": "^4.8"
     },
     "autoload": {
-        "psr-4": {"Agile\\": ["CurlLib/", "Tester/CurlLib/"]}
+        "psr-4": {"Redstar\\AgileCRM\\": ["CurlLib/", "Tester/CurlLib/"]}
     }
 }
