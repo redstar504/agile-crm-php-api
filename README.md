@@ -12,6 +12,8 @@ Table of contents
 
 **[Usage](#usage)**
 
+**[Running Tests](#running-tests)**
+
 **[1 Contact](#1-contact)**
   * [1.1 To create a contact](#11-to-create-a-contact)
   * [1.2 To fetch contact data](#12-to-fetch-contact-data)
@@ -142,6 +144,16 @@ $result = json_decode($result, false, 512, JSON_BIGINT_AS_STRING);
 $contact_id = $result->id;
 print_r($contact_id);
 ``` 
+
+##Running Tests
+
+To run the PHPUnit test suite, install composer and run them using the following commands:
+
+```bash
+curl -sS https://getcomposer.org/installer | php
+php composer.phar install
+vendor/bin/phpunit
+```
 
 ## 1. Contact
 
