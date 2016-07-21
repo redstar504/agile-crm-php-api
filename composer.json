@@ -1,8 +1,15 @@
 {
-    "require": {
+    "name": "redstar504/agile-crm-php-api",
+    "require-dev": {
         "phpunit/phpunit": "^4.8"
     },
     "autoload": {
         "psr-4": {"Redstar\\AgileCRM\\": ["CurlLib/", "Tester/CurlLib/"]}
-    }
+    },
+    "authors": [
+        {
+            "name": "Brayden Williams",
+            "email": "redstar504@gmail.com"
+        }
+    ]
 }
